@@ -22,7 +22,8 @@ delay(() => {
 const delay = (wait = 1000) => {
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve();
+            //resolve();
+            reject('Что то пошло не так :(');
         }, wait);
     })
     return promise;
@@ -44,11 +45,16 @@ const getData = () => new Promise( resolve => resolve(
 //getData().then(data => console.log(data));
 
 async function asyncExample() {
-    await delay(3000);
-    const data = await getData();
+    try {
+        await delay(3000);
+        const data = await getData();
 
-    console.log('Data', data);
-
+        console.log('Data', data);
+    } catch (e) {
+        console.error('Попробуйте еще раз.', e);
+    } finally {
+        console.log('Finally')
+    }
 }
 
 asyncExample();
