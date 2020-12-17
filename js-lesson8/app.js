@@ -1,11 +1,11 @@
 const h1 = document.getElementById('welcome');
 
 //Устарело
-//const h2 = document.getElementsByTagName('h2')[0];
-//const h2 = document.getElementsByClassName('heading2');
+//const h2 = document.getElementsByTagName('h2')[0]; //by tag
+//const h2 = document.getElementsByClassName('heading2'); //by class
 
 // only one first element
-//const h2 = document.querySelector('h2') //by element
+//const h2 = document.querySelector('h2') //by tag
 //const h2 = document.querySelector('.heading2') //by class
 const h2 = document.querySelector('#heading2-id') //by id
 
