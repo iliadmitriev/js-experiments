@@ -1,0 +1,8 @@
+.green-square {
+    position: absolute;
+    background: green;
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    top: 200px;
+}
