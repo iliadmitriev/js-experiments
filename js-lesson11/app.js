@@ -8,18 +8,18 @@ function createCalcFunction (n) {
 
 const calc = createCalcFunction(1000);
 
-// calc(42);
-// calc(33);
+calc(42);
+calc(33);
 
 
-function createIncrementor(n) {
+function createIncrementer(n) {
     return function (num) {
         return n + num;
     }
 }
 
-const addOne = createIncrementor(1);
-const addTen = createIncrementor(10);
+const addOne = createIncrementer(1);
+const addTen = createIncrementer(10);
 
 console.log(addOne(10));
 console.log(addOne(41));
@@ -38,7 +38,7 @@ const comUrl = urlGenerator('com');
 const ruUrl = urlGenerator('ru');
 
 console.log(comUrl('google'));
-console.log(comUrl('nextflix'));
+console.log(comUrl('netflix'));
 console.log(ruUrl('yandex'));
 console.log(ruUrl('mail'));
 
