@@ -48,7 +48,8 @@ console.dir(el)
 const ind = people.findIndex(person => person.name === 'Сергей')
 console.log(ind)
 
-people.filter(p => p.budget > 30000)
+const budg = people
+    .filter(p => p.budget > 30000)
     .map(p => {
         return {
             name: p.name,
@@ -58,3 +59,5 @@ people.filter(p => p.budget > 30000)
         }
     })
     .reduce((summary, p) => summary + p.budget, 0)
+
+console.log(budg)
