@@ -121,7 +121,7 @@ function uniqValues(array) {
     return Array.from(new Set(array))
 }
 
-console.log(uniqValues([1,2,3,1,2,3]))
+console.log(uniqValues([1, 2, 3, 1, 2, 3]))
 
 // Weak map
 let testObj = {name: 'weakmap'}
@@ -139,8 +139,8 @@ testObj = null
 
 console.log(weakMap.get(testObj))
 
-
 const cache = new WeakMap()
+
 function cacheUser(user) {
     if (!cache.has(user)) {
         cache.set(user, Date.now())
@@ -158,3 +158,20 @@ cacheUser(alex)
 
 console.log(cache.has(lena))
 console.log(cache.has(alex))
+
+// WeakSet
+const myUsers = [
+    {name: 'Elena'},
+    {name: 'Alex'},
+    {name: 'Irina'}
+]
+
+const myVisits = new WeakSet();
+myVisits
+    .add(myUsers[0])
+    .add(myUsers[1])
+
+myUsers.splice(1, 1)
+
+console.log(myVisits.has(myUsers[0]))
+console.log(myVisits.has(myUsers[1]))
