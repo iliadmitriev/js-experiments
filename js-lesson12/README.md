@@ -1,0 +1,1 @@
+# setTimeout(func, [delay], [arg]...)
