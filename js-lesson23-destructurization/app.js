@@ -25,6 +25,14 @@ const person = {
     address: {
         country: 'Россия',
         city: 'Москва'
+    },
+
+    greet: function () {
+        console.log(`${this.name} is greeting you`)
+    },
+
+    greetArrow: () => {
+        console.log(`${this.name} is greeting you by arrow`)
     }
 }
 
@@ -48,3 +56,17 @@ function logPerson({name: firstName, age: personAge}) {
 }
 
 logPerson(person)
+
+const {greet: greetPerson, greetArrow: greetArrow} = person
+
+// this is undefined
+greetPerson()
+// this is a link to a person
+const bindGreet = greetPerson.bind(person)
+bindGreet()
+
+// this is undefined
+greetArrow()
+// this is undefined
+const bindGreetArrow = greetArrow.bind(person)
+bindGreetArrow()
