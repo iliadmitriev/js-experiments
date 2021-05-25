@@ -14,6 +14,11 @@ const [sum, sub = 'Вычитания нет', ...other] = calcValues(42, 10)
 
 console.log(sum, sub, other)
 
+let x = 42, y = 24;
+// swap values
+([x, y] = [y, x])
+console.log(x, y)
+
 const person = {
     name: 'Иван',
     age: 20,
