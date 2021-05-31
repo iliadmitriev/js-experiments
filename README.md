@@ -1,6 +1,6 @@
 ## Vanilla JS experiments
 
-1. [Variables](lesson01/README.md)
+1. [Variables](js-lesson01/README.md)
 * Mutations
 * Operators
 * Data types
