@@ -67,3 +67,21 @@
 
 * Prototype
 
+10. [Object](js-lesson10/README.md)
+
+* this
+* apply
+* call
+* prototype
+
+11. [Function](js-lesson11/README.md)
+
+* closure
+* apply
+
+12. [setTimeout](js-lesson12/README.md)
+
+13. [Promise](js-lesson13/README.md)
+
+* all
+* race
