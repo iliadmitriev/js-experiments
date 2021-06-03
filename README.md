@@ -104,3 +104,33 @@
 * async function
 * try catch
 * await
+
+17. [Proxies](js-lesson17-a/README.md)
+
+* Object Proxy
+* set, get, has, deleteProperty
+* Function proxy, apply
+* Class Proxy
+
+18. [Symbol generator function](js-lesson18/README.md)
+
+* yield value from function
+* iterator
+
+19. [es6 2015](js-lesson19/README.md)
+
+* for (let item of array)
+* array.forEach
+* array.map
+* array.filter
+* array.reduce
+* array.find
+* array.findIndex
+
+20. [Object Entries](js-lesson20/README.md)
+
+* Map
+* Set
+* Weakmap
+* Weakset
+
