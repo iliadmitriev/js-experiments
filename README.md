@@ -85,3 +85,22 @@
 
 * all
 * race
+
+14. [Object](js-lesson14/README.md)
+
+* create
+* hasOwnProperty
+* properties value, enumerable, writable, configurable
+* setters, getters
+
+15. [Class](js-lesson15/README.md)
+
+* constructor
+* new instance
+* extend class
+
+16. [Promise](js-lesson16/README.md)
+
+* async function
+* try catch
+* await
