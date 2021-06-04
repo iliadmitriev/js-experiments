@@ -162,3 +162,14 @@
 * object assignment
 * lost of context with destructuring assignment of objects
 
+24. [localStorage](js-lesson24/README.md)
+
+* localStorage methods
+  * getItem
+  * setItem
+  * removeItem
+  * clear
+* JSON helper methods for serializing data
+  * JSON.parse
+  * JSON.stringify
+* window.onstorage Event to track events in localStorage
