@@ -155,3 +155,10 @@
   * rest function parameters to array
   * rest array values to array
   * rest object keys and values to object
+  
+23. [Destructuring assignment](js-lesson23/README.md)
+
+* arrays assignment
+* object assignment
+* lost of context with destructuring assignment of objects
+
