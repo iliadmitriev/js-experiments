@@ -134,3 +134,12 @@
 * Weakmap
 * Weakset
 
+21. [XHR query](js-lesson21/README.md)
+
+* XHR query
+  - onload
+  - onerror
+* Promise
+  - resolve
+  - reject
+* Fetch request
