@@ -1,4 +1,4 @@
-## Vanilla JS experiments
+## Vanilla JS lessons
 
 1. [Variables](js-lesson01/README.md)
 * Mutations
